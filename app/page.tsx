@@ -16,8 +16,8 @@ export default function Home() {
         Get early access →
       </Link>
       <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
+        Shows, conferences, festivals and meetups from every corner of the
+        world, filtered by what you love.
       </p>
     </section>
   );
