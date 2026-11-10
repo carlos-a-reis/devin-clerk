@@ -4,22 +4,31 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Evento Livre",
+  description: "Plataforma para encontrar eventos de meu interesse no mundo todo.",
+  emoji: "🌍",
+  accent: "#ea580c",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Interest profile",
+      description:
+        "Pick the topics you care about, like music, tech or sports, to personalize your events.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Search events by city",
+      description: "Find upcoming events in any city or country in the world.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "World events map",
+      description: "See events as pins on an interactive world map.",
+    },
+    {
+      title: "Date range filter",
+      description: "Show only the events happening in the dates you choose.",
+    },
+    {
+      title: "Save favorite events",
+      description: "Bookmark events and find them later in a list on your dashboard.",
     },
   ] satisfies Feature[],
 };
